@@ -1,3 +1,5 @@
+// Time Complexity :- O(n)
+
 #include <iostream>
 #include <sstream>
 using namespace std;
@@ -16,4 +18,5 @@ int main() {
 
     cout << "Number of words in the string you entered are: " << count;
     return 0;
+
 }
