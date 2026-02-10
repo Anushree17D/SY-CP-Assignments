@@ -1,3 +1,5 @@
+// TC :- O(N)
+
 #include <iostream>
 using namespace std;
 
