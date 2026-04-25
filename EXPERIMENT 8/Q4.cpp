@@ -1,15 +1,15 @@
-// TC :-
+// TC :- Q(n)
 
 #include <iostream>
-#include <unordered_map>
 using namespace std;
 
-int main(){
+int main()
+{
     string s;
     cout << "Enter string: ";
     cin >> s;
 
-    unordered_map<char, int> freq;
+    int freq[256] = {0};
 
     for(char c : s)
         freq[c]++;
